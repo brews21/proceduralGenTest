@@ -46,7 +46,7 @@ public class MapGenerator : MonoBehaviour
         RandomFillMap();
 
         // the amount of iterations we want to apply the SmoothMap function
-        for (int i = 0; i < 5; i++)
+        for (int i = 0; i < 3; i++)
         {
             SmoothMap();
         }
